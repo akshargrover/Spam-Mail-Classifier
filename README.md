@@ -31,24 +31,24 @@ Accuracy evaluation metrics such as Precision, Recall, F1-score, and Confusion M
 ## Setup and Installation
 
 1. Clone the repository:
-'''
+```bash
 git clone https://github.com/username/spam-mail-classifier.git
-'''
+```
 Navigate to the project directory:
-'''
+```bash
 cd spam-mail-classifier
-'''
+```
 Set up a virtual environment (optional but recommended):
-'''
+```bash
 python -m venv env
 source env/bin/activate  # For Unix/MacOS
 env\Scripts\activate    # For Windows
-'''
+```
 
 Install the required dependencies:
-'''
+```bash
 pip install -r requirements.txt
-'''
+```
 Place the dataset file in the data/ directory or update the data_path variable in the script to the location of your dataset.
 
 ![image](https://github.com/user-attachments/assets/cdac64dc-b0f7-419a-bc0a-193a53bb4ced)
