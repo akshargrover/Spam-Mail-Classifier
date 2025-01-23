@@ -51,9 +51,26 @@ pip install -r requirements.txt
 ```
 Place the dataset file in the data/ directory or update the data_path variable in the script to the location of your dataset.
 
+## Dataset
+
+The classifier requires a labeled dataset of emails, with each entry indicating whether a message is Spam or Not Spam. 
+
+## How It Works
+
+Text Preprocessing: The input emails undergo cleaning steps, including removing punctuation, numbers, and stopwords. Words are tokenized and processed through lemmatization or stemming.
+
+Feature Extraction: The cleaned text is converted into numerical data using the TF-IDF vectorization technique.
+
+Model Training: The Logistic Regression model is trained to optimize weights that minimize classification errors.
+
+Prediction: For new emails, the model calculates the likelihood of the email being spam and assigns the appropriate label.
+
+## Accuracy:96.68%
+
+## Images
 ![image](https://github.com/user-attachments/assets/cdac64dc-b0f7-419a-bc0a-193a53bb4ced)
 ![image](https://github.com/user-attachments/assets/ec5ef8fb-8fa4-45eb-8be2-b885de485280)
 
 ## License
 
-This project is licensed under the Apache License. Refer to the LICENSE file for complete details.
+This project is licensed under the Apache 2.0 License. Refer to the LICENSE file for complete details.
